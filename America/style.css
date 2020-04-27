@@ -1,0 +1,43 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body
+{
+  background-color: white;
+
+}
+
+header
+{
+  height: 8px;
+  background-color: #cf2a28;
+}
+.menu
+{
+  height:55px;
+  background-color: #0d497c;
+}
+
+.about
+{
+background: #ebebec;
+height: 50px;
+text-align: center;
+font-size: 11px;
+color:#0d497c;
+}
+.seredina
+{
+  background-color: #f5f6f7;
+  color: #0d497c;
+  text-align: left;
+  font-size: 14px;
+  margin-left:280px;
+  margin-right:280px;
+}
+footer
+{
+  background-color: #0d497c;
+  height: 405px;
+}
