@@ -40,8 +40,14 @@ body
 }
 .area
 {
-	line-height:15px;
+	margin-bottom:20px;
+	padding-bottom:15px;
 		
+}
+.bigarea
+{
+	padding-bottom:150px;
+	margin-bottom:20px;
 }
 .send
 {
