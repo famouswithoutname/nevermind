@@ -1,0 +1,214 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: #e2e9ea;
+
+}
+
+header{
+
+  height:125px;
+  background-color: white;
+
+}
+section
+{
+  background-color: white;
+  max-width: 960px;
+  margin:auto;
+}
+
+article
+{
+  max-width: 320px;
+  padding: 100px 100px 100px 100px;
+}
+.pay{
+
+  padding-top: 70px;
+
+}
+.head__text{
+
+padding: 25px 0px;
+color: white;
+font-size: 20px;
+background-color: #04a6e2;
+
+
+
+}
+.fix
+{
+  max-width: 960px;
+  margin:auto;
+  text-align: left;
+}
+.navigation_text
+{
+font-size: 12px;
+}
+
+.prenom
+{
+  color:#7d7d7d;
+  font-size:10px;
+  padding-top:24px;
+  padding-bottom: 15px;
+
+}
+
+.prenom_1
+{
+  padding-top:5px;
+
+}
+
+.Nom_de_famile
+{
+  color:#7d7d7d;
+  font-size:10px;
+  padding-bottom: 15px;
+
+}
+
+.Nom_de_famile_1
+{
+
+  padding-top:5px;
+
+}
+
+.adresse
+{
+  color:#7d7d7d;
+  font-size:10px;
+  padding-bottom: 15px;
+
+}
+
+.adresse_1
+{
+
+  padding-top:5px;
+
+}
+.adresse_2
+{
+
+  padding-top:5px;
+
+
+}
+
+.Zip_Code
+{
+  color:#7d7d7d;
+  font-size:10px;
+  padding-bottom: 15px;
+
+
+}
+
+.Zip_Code_1
+{
+
+  padding-top:5px;
+
+}
+
+.Ville
+{
+  color:#7d7d7d;
+  font-size:10px;
+  padding-bottom: 15px;
+
+
+}
+
+.Ville_1
+{
+
+  padding-top:5px;
+
+}
+
+
+.Etat_Province
+{
+  color:#7d7d7d;
+  font-size:10px;
+
+
+
+}
+
+.Etat_Province_1
+{
+
+  padding-top:5px;
+
+}
+
+.Pays
+{
+
+  color:#7d7d7d;
+  font-size:10px;
+
+  padding-top: 15px;
+
+}
+
+.Pays_1
+{
+
+  padding-top:5px;
+
+}
+
+.phone
+{
+
+  color:#7d7d7d;
+  font-size:10px;
+
+  padding-top: 15px;
+
+}
+
+.phone_1
+{
+
+  padding-top:5px;
+  padding-bottom: 15px;
+}
+
+.checker
+{
+
+
+}
+
+.radiobutton{
+
+  padding-top: 75px;
+
+}
+
+.image{
+  padding-top: 35px;
+  padding-bottom: 70px;
+}
+
+.buttons{
+
+  padding-bottom: 100px;
+}
+footer{
+
+  height:485px;
+}

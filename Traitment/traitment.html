@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>payment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+
+    </header>
+    <div class = " head__text">
+      <div class = "fix">
+        <nav class="navigation_text">
+          <span>Acueli</span> >> <span> Traitment</span>
+        </nav>
+        <h1> TRAITMENT </h1>
+      </div>
+    </div>
+    <section>
+
+      <article>
+          <h2 style = "color:#7d7d7d; font-size:14px;">Information</h2>
+          <form class="pay" action="index.html" method="post">
+              <label for="prenom" style = "color:#04a6e2; font-size:12px;"> Information de paiment </label>
+              <div class="prenom">
+                  <label for="">Prenom</label>
+                  <div class = "prenom_1">
+                      <input type="text"  name = " prenom "style="height:30px;max-width:320px;" />
+                  </div>
+              </div>
+              <div class="Nom_de_famile">
+                  <label for="">Nom de famile</label>
+                  <div class= "Nom_de_famile_1">
+                      <input type="text"  name = " Nom_de_famile  " class="Nom_de_famile_class" style="height:30px;max-width:320px;" />
+                  </div>
+              </div>
+              <div class="adresse">
+                  <label for="">Adresse</label>
+                  <div class="adresse_1">
+                      <input type="text"  name = " adresse " style="height:30px; max-width:320px;" />
+                        <div class = "adresse_2">
+                          <input type="text"  name = " adresse " class = "adresse_class" style="height:30px;max-width:320px;" />
+                        </div>
+                  </div>
+              </div>
+          <div class="Zip_Code">
+              <label>Zip/Code Postale</label>
+                <div class="Zip_Code_1">
+                    <input type="number" name="Zip_Code" value="" style="height:30px;max-width:320px;"/>
+
+                </div>
+          </div>
+          <div class="Ville">
+              <label>Ville</label>
+                <div class="Ville_1">
+                    <input type="text" name="Ville" value="" style="height:30px;max-width:320px;"/>
+                </div>
+          </div>
+          <div class="Etat_Province">
+              <label>Etat/Province</label>
+                <div class="Etat_Province_1">
+                    <select class="province" name="province" style="height:30px; max-width:320px;">
+                        <option selected>Kharkiv</option>
+                        <option>Kyiv</option>
+                        <option>Lviv</option>
+                    </select>
+                </div>
+                <div class="Pays">
+                    <label>Pays</label>
+                      <div class="Pays_1">
+                          <select class="pays_s" name="pays_s" style="height:30px; max-width:320px;">
+                              <option selected>Master Card </option>
+                              <option>Visa</option>
+                              <option>Other</option>
+                          </select>
+                      </div>
+                      <div class="phone">
+                          <label>Telephone</label>
+                            <div class="phone_1">
+                                <input type="telephone" name="telephone" value="" style="height:30px;max-width:320px;">
+                            </div>
+                <div clas = "checker">
+                    <label for=""><input type="checkbox" name="faire" value="" checked /> Faire la livrasion des articles a ladresse de facturation ci-dessus </label>
+                </div>
+                <div class = "radiobutton">
+                  <label style = "color:#04a6e2;font-size:11px; ">Information de paiment</label>
+                    <div class = "" style="padding-top:30px;">
+                      <span class = "radiobutton_1"><label for=""><input type = "radio" name = " credit" /> Carte de Credit </label></span>
+                      <span class = "radiobutton_2"><label for=""><input type = "radio" name = " paypal" checked /> Paypal </label></span>
+                    </div>
+                </div>
+          </div>
+          <div class = "image">
+              <img src="img/Checkout.png" alt="paypal" style = "max-width:100%">
+              <p style = "padding-top:15px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div class="buttons">
+              <button type="reset" name="anuler" style = "background-color:#c9c9c9; height:40px; width:110px;color:white;">Anuler</button>
+              <button type="submit" name="continuer" style = "background-color:#04a6e2; height:40px; width:110px;color:white;" >Continuer>></button>
+          </div>
+
+
+          </form>
+      </article>
+    </section>
+    <footer>
+
+
+    </footer>
+</body>
+</html>
