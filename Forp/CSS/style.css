@@ -1,0 +1,276 @@
+*
+{
+  padding: 0px;
+  margin: 0px;
+  font-size: inherit;
+  box-sizing: border-box;
+}
+
+a
+{
+  text-decoration: none;
+  color:inherit;
+}
+
+header
+{
+  padding:30px 0px;
+  background-color: #24282f;
+
+}
+
+ .conteiner
+ {
+   max-width: 1094px;
+   margin: auto;
+
+ }
+ header .logo
+{
+
+  float:left;
+
+}
+
+header nav
+{
+  float:right;
+}
+
+header nav ul li
+{
+  display: inline-block;
+  margin-left: 51px;
+  font-size: 11px;
+  text-transform: uppercase;
+  color:white;
+
+}
+.clear{
+  clear:both;
+}
+
+.more
+{
+background-image:url('../img/backgroundimage.png');
+background-repeat: no-repeat;
+background-size:cover;
+padding:75px 0px 80px 0px;
+}
+.more_about_us
+{
+max-width: 1094px;
+margin: auto;
+}
+.more h1
+{
+  text-transform:uppercase;
+  font-size:25px;
+  color:white;
+  padding-bottom:20px;
+
+}
+.more p
+{
+  max-width: 625px;
+  color:white;
+  line-height: 15px;
+  font-size:10px;
+}
+
+.managment
+{
+padding:125px 0px 30px 0px;
+background-color: white;
+
+}
+.managment_content
+{
+  max-width: 925px;
+  margin:auto;
+  text-align: center;
+
+}
+
+.managment_content h2
+{
+  padding-bottom: 50px;
+  font-size: 15px;
+
+}
+.managment_worker_1, .managment_worker_2, .managment_worker_3
+{
+  max-width: 250px;
+  float:left;
+  margin-left: 29px;
+  margin-right: 29px;
+  padding-bottom:35px;
+}
+
+.managment_worker_1 .avatar, .managment_worker_2 .avatar, .managment_worker_3 .avatar
+{
+  width:100%;
+  padding-bottom:20.5px;
+
+}
+
+.managment_worker_inicio
+{
+  float:left;
+  text-align: left;
+  padding-left:14px;
+}
+.managment_social_media
+{
+  float:right;
+  padding-right: 20px;
+}
+.managment_worker_1 .fio, .managment_worker_2 .fio,.managment_worker_3 .fio
+{
+  font-size: 10px;
+  text-transform: uppercase;
+  padding-bottom:5px;
+}
+.managment_worker_1 .work, .managment_worker_2 .work, .managment_worker_3 .work
+{
+  font-size:10px;
+  color:#b5a263;
+}
+.managment_content .clear
+{
+  clear:left;
+}
+.managment button
+{
+  background-color: white;
+  color:black;
+  -webkit-border-radius: 100px 100px 100px 100px;
+border-radius: 100px 100px 100px 100px;
+font-size:10px;
+padding:15px 35px;
+border:solid 1px black;
+text-transform: uppercase;
+}
+.client
+{
+  padding: 90px 0px 95px 0px;
+  background-color:#f7f7f7;
+}
+.client_content
+{
+  max-width:910px;
+  margin:auto;
+  text-align: center;
+}
+
+.client_content h2
+{
+  text-transform: uppercase;
+  font-size:15px;
+  padding-bottom: 65px;
+}
+.client_info img
+{
+
+  padding-bottom:15px;
+
+}
+.client_comment p
+{
+line-height: 10px;
+font-size:10px;
+padding-bottom:37px;
+}
+.client_name
+{
+  text-transform:uppercase;
+    color:#b5a263;
+    font-size:10px;
+    padding-bottom:15px;
+}
+.client_work
+{
+  font-size:10px;
+}
+.top_footer
+{
+  background-color:#2b2f35;
+  padding:60px 0px 30px 0px;
+}
+.top_footer .container
+{
+  max-width: 885px;
+  margin:auto;
+}
+.about_fapor, .contact_info, .subscribe
+{
+  max-width: 230px;
+  float:left;
+  margin-left: 30px;
+  margin-right: 30px;
+
+}
+.about_fapor h3, .contact_info h3, .subscribe h3
+{
+  color:#ac9b60;
+  text-transform:uppercase;
+  padding-bottom:25px;
+  font-size: 10px;
+}
+
+.about_fapor p, .contact_info p
+{
+  font-size:8px;
+  line-height:11px;
+  color: #585c63;
+}
+.subscribe_button
+{
+color:white;
+font-size:10px;
+width:230px;
+padding:10px 70px;
+border:inherit;
+text-transform: uppercase;
+background-color: #b5a263;
+}
+.subscribe_email
+{
+  width:230px;
+  background-color: #2b2f35;
+  color: white;
+  border:solid 1px white;
+  padding: 5px 8px;
+  margin-bottom: 10px;
+}
+footer
+{
+background-color: #24282f;
+padding:20px 0px;
+border-top: 2px solid #5e6266;
+}
+footer .container
+{
+  max-width: 825px;
+  margin:auto;
+}
+
+.container .by_who
+{
+  text-transform: uppercase;
+  color: #585c63;
+  float: left;
+}
+
+footer ul
+{
+  float:right;
+}
+
+footer .social_media ul li
+{
+  display:inline-block;
+  margin-left: 5px;
+
+
+}
